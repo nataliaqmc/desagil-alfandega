@@ -12,11 +12,11 @@ public class Alfandega {
 		this.itensTarifados = new ArrayList<>();
 	}
 
-	public void declara(Item item) {
+	public void declaraItem(Item item) {
 		this.itens.add(item);
 	}
 
-	public void declara(ItemTarifado itemTarifado) {
+	public void declaraItemTarifado(ItemTarifado itemTarifado) {
 		this.itensTarifados.add(itemTarifado);
 	}
 
